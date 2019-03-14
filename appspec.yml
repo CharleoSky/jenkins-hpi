@@ -1,7 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: README.md
+  - source: /index.html
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: cd demo
