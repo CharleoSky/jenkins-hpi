@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: README
+hooks:
+  BeforeInstall:
+    - location: cd demo
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: cd demo
+      timeout: 300
+      runas: root
