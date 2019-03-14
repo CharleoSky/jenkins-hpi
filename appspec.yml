@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: README
+  - source: README.md
 hooks:
   BeforeInstall:
     - location: cd demo
